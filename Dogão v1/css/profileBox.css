@@ -1,0 +1,93 @@
+.box-perfil{
+    border:solid 1px #E6E9EB;
+    border-bottom: solid 1px;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+                    
+    border-radius: 4px;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    padding: 0px;
+    /*-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);*/
+}
+.box-container-photo{
+    position: relative;
+    top: -50px;
+}
+.box-container-photo-border{
+    background-color:white;
+    margin: 0 auto;
+    border:solid 2px white; overflow:hidden;
+    border-radius: 10%;
+    width: 110px;
+    height: 110px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.inputs>input, .inputs>textArea{
+    border:none;
+    border-bottom: dashed 1px #DFE0E4;
+
+    font-family:Arial ;
+    width:100%;
+    height: 40px;
+
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+
+    min-width: 200px;
+}
+.inputs>select{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: transparent;
+    width: 100%;
+    color: #474747;
+    padding: 8px 5px 5px 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+
+    height: 30px;
+
+    overflow: hidden;
+    background: #f0f0f0;
+    border-radius: 3px;
+}
+.inputs>textArea{
+    padding: 10px 0px 0px 0px;
+    height: 80px;
+    resize: none;
+}
+textarea:focus{ outline:none;}
+input:focus{ outline: none; }
+select:focus{ outline: none; }                            
+.select-style {
+    float:left;
+    margin: 5px 5px 0px 0px;
+    border: 1px solid #ccc;
+    width: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+.select-style select:focus {
+    outline: none;
+}

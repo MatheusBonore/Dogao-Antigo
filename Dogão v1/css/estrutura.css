@@ -1,0 +1,46 @@
+
+
+/* ### ESTRUTURA ### */
+div.row{
+    padding: 65px 0px 0px 0px;
+    margin: 0px 15% 0px 10%;
+    position: absolute;
+    
+    
+    min-width: 1118px;
+}
+div.row>div{
+    float: left;
+}
+div.col-1{
+    width: 220px;
+}
+div.col-2{
+    height: auto;
+    width: 44%;
+    /*min-width: 525px;*/
+    
+    margin: 0px 15px 0px 15px;
+    padding: 55px 0px 0px 0px;
+}
+div.col-3{
+    width: 310px;
+
+    margin: 0px 0px 0px 0px;
+    padding: 55px 0px 0px 0px;
+}
+
+.confg > a{
+    border:solid 1px #379FC9;
+    border-radius: 3px;
+    text-align: center;
+    padding: 3px 10px 3px 15px;
+    margin: 6px 0px 0px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    }
+.confg > a:hover{
+    color:white;
+    background-color: #379FC9;
+}

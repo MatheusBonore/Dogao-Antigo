@@ -1,0 +1,89 @@
+
+
+            
+            .form{
+                background-color:#EEF1F1;
+                position: absolute;
+                box-shadow: rgba(0, 0, 0, 0.407843) 0px 0px 30px -8px;
+                width: 480px;
+                height: 100%;
+                right: 0px;
+                top: 0px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+
+            .div-form-register{
+                min-height: 81%;
+                color: rgb(34, 44, 55);
+                
+                padding: 10px 45px 0px 45px;
+                margin: 0px 0px 10px 0px;
+            }
+
+            /* BOX ENTRAR */
+            .boxgetin{
+                position:fixed;
+                width:100%;
+                height:100%;
+                z-index:10;
+                padding-top:99px;
+                
+            }
+            .getIn{
+                background-color:#EEF1F1;
+                margin: 0 auto;
+                height: auto;
+                padding: 15px 20px 0px 20px;
+                width: 480px;
+                border:solid 1px;
+                border-radius: 5px;
+                border-color: rgb(187, 187, 187);
+                z-index: 10;
+            }
+            .cancel:Hover{
+                opacity:0.5;
+            }
+            /*div.boxgetin{display: none;}*/
+            div.boxgetinClose{
+                float:left; height:auto; width:auto; float:right; padding-top:15px;
+            }
+            
+                    
+                    .lo{
+                    float: left;
+                    margin-left: 125px;
+                    padding-top: 110px;
+                    
+                }
+                
+                .footer_links_container{
+                    position: absolute;
+                    font-size: 13px;
+                    width: 100%;
+                    color: #767676;
+                    padding: 0px 45px 5px 45px;
+                }
+
+                
+                
+                
+                
+                
+                
+                
+.formRequired{
+background: url("../layout/form-required-8f55e9d4a03d3e50b6f955b95fd3eff9.gif") 100% -8px no-repeat scroll rgb(255, 255, 255);
+}
+.formErro{
+background: url("../layout/form-error-8e802d228c76074f6b5bb24859c84992.png") 100% -8px no-repeat scroll rgb(255, 255, 255);
+border:solid 1px #E17278;
+}
+.erro{
+color:#E17278;
+}
+.erroBorder{
+border:solid 1px #E17278;
+}
+            
+

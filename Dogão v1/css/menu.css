@@ -1,0 +1,83 @@
+div.menu{
+    position: fixed;
+    top:0px;
+    
+    width: 100%;
+    height: auto;
+    
+    /* media sera 56px */
+    
+    margin: 0px;
+    padding: 10px 3% 10px 3%;
+    
+    
+    z-index: 4;
+    border-bottom: solid 1px #35AF70;
+    background: #3DC17A;
+
+    display: flex;
+    
+        -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+}
+div.menu>div{
+    width: auto;
+    height: 35px;
+    margin: 0px 5px 0px 5px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: white;
+}
+div.menu>div.nomeD{
+    font-weight: bold;
+    
+    padding: 5px 0px 0px 0px;
+}
+div.menu>div.botA{
+    padding: 5px 20px 0px 20px;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
+div.menu>div.botB{
+    background-color: #2f975f;
+    border-radius: 2px;
+    
+    margin: 2px 0px 0px 0px;
+}
+div.menu>div.botB>input{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    
+    padding: 10px 5px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    
+    height: 100%;
+    
+    
+    color:white;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+div.menu>div.botB>input::-webkit-input-placeholder {
+   color: white;
+}
+div.menu>div.botB>input:-moz-placeholder {
+   color: white;
+}
+div.menu>div.botC>div{
+    width:30px;
+    margin: 0px 5px 0px 5px;
+    fill:#fff;
+    float: left;
+}
+div.menu>div.botNotificacao{
+    position: relative;
+    padding-top: 5px;
+    width: 28px;
+    margin: 0px 10px 0px 10px;
+    height: 28px;
+    background-origin: content-box;
+    background-image: url(https://www.gstatic.com/images/icons/material/system/2x/notifications_white_24dp.png);
+    -webkit-background-size: 100%;
+    background-size: 28px;
+    background-repeat: no-repeat;
+}
